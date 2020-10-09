@@ -13,13 +13,13 @@
 	<meta name="description" content="Personal Website of Alex Koenig">
 </head>
 <body>
-	<div class="row" style="width:100.7vw">
-		<div class="col-xl-4 text-center pr-0" style="margin-right: 0px; margin-left: 0px">
+	<div class="row" style="width:100vw">
+		<div class="col-xl-4 text-center pr-0 pl-0 fixed-top" style="margin-right: 0px; margin-left: 0px; height: 100vw">
 			<div class="border-right border-secondary">
 			<div class="jumbotron jumbotron-fluid" style="height:100vh; margin-bottom: 0px">
 				<div class="container">
-					<a href="#" data-toggle="tooltip" title="Andromeda. Taken by me in Summer 2019">
-					<img class="img" style="max-width: 80%; border-radius: 10%" src="andromeda.png" alt="Andromeda, me, Summer 2019">
+					<a href="#" data-toggle="tooltip" title="An office chair found at the Salton Sea. Jan 2019">
+					<img class="img" style="max-width: 80%; height:auto; border-radius: 10%" src="me.jpeg" alt="An office chair found at the Salton Sea. Jan 2019">
 					</a>
 <script>
 $(document).ready(function(){
@@ -30,7 +30,7 @@ $(document).ready(function(){
 					<h1 style="margin-bottom: 5px">Alex Koenig</h1>
 					
 					<h4>
-						<span class="typewrite" data-period="800" data-type='["MIT Class of 2022", "Physics & Aerospace Student", "Amateur Astrophotographer", "Flight Enthusiast"]'>
+						<span class="typewrite" data-period="800" data-type='["MIT &#39;22", "Aerospace & Physics Student", "Amateur Astrophotographer", "Flight Enthusiast"]'>
 						<span class="wrap"></span>
 					</span></h4>
 
@@ -42,10 +42,13 @@ $(document).ready(function(){
 		</div>
 		</div>
 
-		<div class="col-xl-8 pl-0 pr-0" style="margin-right: 0px; margin-left: 0px">
-			<nav class="navbar navbar-dark navbar-expand-xl bg-secondary">
+		<div class="col-xl-8 pl-0 pr-0" style="margin-right: 0px; margin-left: 33.33333333%">
+			<nav class="navbar sticky-top navbar-dark navbar-expand-xl bg-secondary">
 				<ul class="navbar-nav">
-					<li class="nav-item pr-5" style="font-size: 24px">
+					<li class="nav-item pr-5" style="margin-left: 16px; font-size: 24px">
+						<a class="nav-link" href="index.html"><strong>about me</strong></a>
+					</li>
+					<li class="nav-item pr-5" style="margin-left: 16px; font-size: 24px">
 						<a class="nav-link" href="#"><strong>projects</strong></a>
 					</li>
 					<li class="nav-item pr-5" style="font-size: 24px">
@@ -56,28 +59,33 @@ $(document).ready(function(){
 								<strong>photos</strong>
 						</a>
 						<div class="dropdown-menu" style="min-width: 20rem">
-							<a class="dropdown-item" href="aboutme.html"><img class="img" style="max-width: 70%; border-radius: 10%; margin-right: 15px" src="andromeda.png" alt="Andromeda, me, Summer 2019">astro</a>
+							<a class="dropdown-item" href="astro.html"><img class="img" style="max-width: 70%; border-radius: 10%; margin-right: 15px" src="andromeda.png" alt="Andromeda, me, Summer 2019">astro</a>
 							<a class="dropdown-item" href="aboutme.html"><img class="img" style="max-width: 70%; border-radius: 10%; margin-right: 15px" src="bear.jpg" alt="Alaskan brown bear, me, Summer 2019">nature</a>
 							<a class="dropdown-item" href="#"><img class="img" style="max-width: 70%; border-radius: 10%; margin-right: 15px" src="crystal.jpg" alt="Mineral, me, Fall 2019">misc</a>
 						</div>
 					</li>
 				</ul>
 			</nav>
-			<div class="jumbotron jumbotron-fluid">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-xl-4 text-center">
-							<a href="test.html" class="btn btn-secondary"><h4>random link 1</h4></a>
-						</div>
-						<div class="col-xl-4 text-center">
-							<a href="endpage.html" class="btn btn-secondary"><h4>random non-functional link 2</h4></a>
-						</div>
-						<div class="col-xl-4 text-center">
-							<a href="endpage.html" class="btn btn-secondary"><h4>random non-functional link 3</h4></a>
-						</div>
-					</div>
-				</div>
-			</div>
+			
+			<p style="margin-left: 40px; margin-top: 20px; font-size: 18px">Hello, I'm Alex! I created this website primarily to document my projects and photography, but it still remains a work in progress, so please be patient with dead links and unfilled content for the time being.</p>
+			<h5 style="margin-left: 40px; font-size: 24px">A bit about me...</h5>
+			<p style="margin-left: 40px; font-size: 18px">I currently study aerospace engineering and physics at MIT -- after a year or two of being torn between the two fields, I decided to tackle them both. I love space exploration, propulsion systems, experimental aircraft, optical engineering, and telescopes; you'll find examples of my projects and photos in the taskbar above. Outside of school & work, I also enjoy different kinds of exploration -- I'm an astrophotographer, wilderness backpacker, private pilot, cyclist, runner, windsurfer, sailor, SCUBA diver, and climber.
+
+			<h5 style="margin-left: 40px; font-size: 24px">What I do</h5>
+
+			<h6 style="margin-left: 40px; font-size: 18px">MIT Student</h6>
+			<p style="margin-left: 40px; font-size: 15px"><i>Junior; Course 16 (Aerospace Engineering) & 8 (Physics)</i></p>
+
+			<h6 style="margin-left: 40px; font-size: 18px">ExoAnalytic Solutions Intern</h6>
+			<p style="margin-left: 40px; font-size: 15px"><i>This fall I'm a full-time intern for ExoAnalytic. My work includes two projects: (1) assisting in developing an architecture for a satellite constellation intended to observe artificial satellites in cislunar space, including the relevant trade studies, cost analyses, and simulations; and (2) creating a high-level design for a company owned-and-built space telescope for providing space situational awareness to customers.</i></p>
+			<p style="margin-left: 40px; font-size: 15px"><i>I also interned at ExoAnalytic in Jan 2020. To guide ExoAnalytic's response to the space debris issue in LEO, I created a report recommending guiding features of a future space traffic management architecture. To inform my work, I took inspiration from contemporary efforts in aerospace as a whole (such as UAV integration into the national airspace system), and spoke with leading experts in the space traffic management field.</i></p>
+
+			<h6 style="margin-left: 40px; font-size: 18px">MIT Rocket Team: Liquid Propulsion Group Team Member</h6>
+			<p style="margin-left: 40px; font-size: 15px"><i>Our primary goal in the liquid propulsion group this semester is to onboard and train freshmen students. I have been developing and executing a propulsion and fluid dynamics curriculum with my team to get incoming freshmen up to speed. I expect to lead a group of 3-4 freshmen in either a theoretical propulsion design project or hands-on building project later this semester (specifics TBD). This semester we are also undergoing design work for new regeneratively-cooled liquid engine, including thermal analysis studies, optimization studies, structural analysis, and fluids system design.</i></p>
+			<p style="margin-left: 40px; font-size: 15px"><i>In previous semesters on the liquid propulsion group, we designed and built a 400 lbf. lox+ethanol engine. We have yet to test this system due to the SARS-CoV-2 pandemic, but we hope to as soon as possible. My specific work included envisioning and manufacturing the engine chamber and nozzle; designing, building, and tested ignition system, and creating fluids system and test stand components.</i></p>
+			
+			<h5 style="margin-left: 40px; font-size: 24px">What I've done</h5>
+			
 		</div>
 	</div>
 
