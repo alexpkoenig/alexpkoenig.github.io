@@ -183,3 +183,27 @@ nav {
 .nav-links li::before {
     content: "";
 }
+
+/* Blog */
+.blog-list .post-date,
+.blog-post .post-date {
+    color: #666;
+    font-size: 14px;
+}
+
+.blog-post {
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+
+.blog-post h2 {
+    margin-bottom: 0;
+}
+
+.blog-post h3 {
+    margin-top: 30px;
+}
+
+.blog-post li {
+    margin-bottom: 8px;
+}
